@@ -5,6 +5,20 @@ e poi facendogli inserire questi N numeri all'utente stesso
 tramite apposito prompt().
 */
 
-//chiedere tramite prompt all'utente quanti numeri vuole che vengano generati (n)
+//chiedere tramite prompt all'utente quanti numeri vuole che vengano generati (N)
 
-// fare un array lungo quanto (n) digitato dall'utente composto da numeri scelti dall'utente
+let arrayNumero = [];
+//facciamo dire all'utente la quantità di numeri da inserire, ossia la lunghezza dell'arrayNumero (N)
+let N = parseInt(prompt("quanti numeri vuoi inserire ?"));
+//facciamo dire all'utente quali saranno i singoli numeri
+
+
+for (let i=o; i < N; i++) {
+let Numero = parseInt(prompt("quale numero vuoi inserire?"));
+arrayNumero.push ("Numero")
+}
+
+
+
+
+// fare un array lungo quanto (N) digitato dall'utente composto da numeri scelti dall'utente
