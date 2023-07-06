@@ -19,7 +19,8 @@ arrayNumero.push (Numero);
 //funzioni
 
 
-function sommaNumeri(num1, num2) {
+function sommaNumeri(lunghezzaarray, arrayNumero) {
+    for
     let somma = num1 + num2;
 
     return somma;
