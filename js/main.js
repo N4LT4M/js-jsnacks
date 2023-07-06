@@ -16,17 +16,43 @@ for (let i = 0; i < N; i++) {
     arrayNumero.push(Numero);
 }
 
+sommaNumeri(arrayNumero);
+
+let risultatoMedia = mediaAritmetica(arrayNumero);
+console.log (risultatoMedia);
+
+
+/*Crea una funzione chiamata mediaAritmetica che prende in input un array di N numeri 
+e restituisca la media aritmetica dei numeri contenuti nell'array.
+Utilizzare la funzione sommaNumeri precedentemente creata per calcolare la media
+ dei numeri che vanno chiesti all'utente attraverso dei prompt.
+Potete ad esempio provare ad usare questo programma per inserire N voti di scuola
+e farvi restituire qual è la media di tutti i voti inseriti!
+*/
+
 //funzioni
 
 
-function sommaNumeri(arrayNumero,) {
-    for (let j = 0; j < arrayNumero.length; j++) {
-        let somma = 0 + arrayNumero[j];
-        let somma = somma + arrayNumero[j]
+function sommaNumeri(arrayNumero) {
+
+    let somma = 0;
+    for (let j = 0; j < arrayNumero.length; j++) {  
+       somma = somma + arrayNumero[j];
     }
-    return somma;
+    console.log(somma);
+}
+
+
+function mediaAritmetica(arrayNumero) {
+    let somma = 0
+    for (let j = 0; j < arrayNumero.length; j++) {
+        somma = somma + arrayNumero[j];
+    }
+    let media = somma / (arrayNumero.length - 1);
+
+    return media;
 }
 
 
 
-// fare un array lungo quanto (N) digitato dall'utente composto da numeri scelti dall'utente
+
