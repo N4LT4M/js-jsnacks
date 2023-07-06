@@ -11,13 +11,19 @@ let arrayNumero = [];
 //facciamo dire all'utente la quantità di numeri da inserire, ossia la lunghezza dell'arrayNumero (N)
 let N = parseInt(prompt("quanti numeri vuoi inserire ?"));
 //facciamo dire all'utente quali saranno i singoli numeri
-
-
 for (let i = 0; i < N; i++) {
 let Numero = parseInt(prompt("quale numero vuoi inserire?"));
-arrayNumero.push (Numero)
+arrayNumero.push (Numero);
 }
 
+//funzioni
+
+
+function sommaNumeri(num1, num2) {
+    let somma = num1 + num2;
+
+    return somma;
+}
 
 
 
