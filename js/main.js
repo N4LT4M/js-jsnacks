@@ -12,17 +12,18 @@ let arrayNumero = [];
 let N = parseInt(prompt("quanti numeri vuoi inserire ?"));
 //facciamo dire all'utente quali saranno i singoli numeri
 for (let i = 0; i < N; i++) {
-let Numero = parseInt(prompt("quale numero vuoi inserire?"));
-arrayNumero.push (Numero);
+    let Numero = parseInt(prompt("quale numero vuoi inserire?"));
+    arrayNumero.push(Numero);
 }
 
 //funzioni
 
 
-function sommaNumeri(lunghezzaarray, arrayNumero) {
-    for
-    let somma = num1 + num2;
-
+function sommaNumeri(arrayNumero,) {
+    for (let j = 0; j < arrayNumero.length; j++) {
+        let somma = 0 + arrayNumero[j];
+        let somma = somma + arrayNumero[j]
+    }
     return somma;
 }
 
