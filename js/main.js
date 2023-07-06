@@ -13,9 +13,9 @@ let N = parseInt(prompt("quanti numeri vuoi inserire ?"));
 //facciamo dire all'utente quali saranno i singoli numeri
 
 
-for (let i=o; i < N; i++) {
+for (let i = 0; i < N; i++) {
 let Numero = parseInt(prompt("quale numero vuoi inserire?"));
-arrayNumero.push ("Numero")
+arrayNumero.push (Numero)
 }
 
 
